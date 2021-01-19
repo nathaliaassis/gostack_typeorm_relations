@@ -42,5 +42,4 @@ export default class CreateOrdersProducts1611093261619 implements MigrationInter
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.dropTable('orders_products');
   }
-
 }
